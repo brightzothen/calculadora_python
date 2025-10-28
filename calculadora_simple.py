@@ -13,11 +13,14 @@ def restar (a, b):
 def multiplicar (a, b):
     return a*b
 
-def dividir ( a, b):
+def dividir (a, b):
     if b == 0:
         return "Error: división entre 0."
     else:
         return a / b
+    
+def potenciar (a, b):
+    return a^b
 
 def main ():
 
@@ -31,6 +34,7 @@ def main ():
     print(f'Resta: {restar(x,y)}')
     print(f'Multiplicación: {multiplicar(x,y)}')
     print(f'División: {dividir(x,y)}')
+    print(f'Potencia: {potenciar(x,y)}')
 
 if __name__ == '__main__':
     main()
