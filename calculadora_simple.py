@@ -35,6 +35,7 @@ def main ():
     print(f'Multiplicación: {multiplicar(x,y)}')
     print(f'División: {dividir(x,y)}')
     print(f'Potencia: {potenciar(x,y)}')
+    print(f'Nueva línea para probar el pull.')
 
 if __name__ == '__main__':
     main()
